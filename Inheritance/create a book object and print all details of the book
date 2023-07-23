@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String name=sc.nextLine();
+        String email=sc.nextLine();
+        String author=sc.nextLine();
+        int qtyInStock=sc.nextInt();
+        Double price=sc.nextDouble();
+        System.out.println("Book Name : "+name);
+        System.out.println("Email : "+email);
+        System.out.println("Author : "+author);
+        System.out.println("QtyInStock : "+qtyInStock);
+        System.out.println("Price : "+price);
+    }
+} 
